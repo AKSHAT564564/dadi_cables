@@ -1,0 +1,134 @@
+input[type=text], select, textarea{
+  width: 70%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+  resize: vertical;
+  font-size: 20px;
+}
+
+/* Style the label to display next to the inputs */
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+/* Style the submit button */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+/* Style the contain */
+.contain {
+  border-radius: 4px;
+  background-color: #f2f2f2;
+  padding: 15px;
+}
+
+/* Floating column for labels: 25% width */
+.col-25 {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+}
+
+/* Floating column for inputs: 75% width */
+.col-75 {
+  float: left;
+  width: 50%;
+  margin-top: 8px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.subscribe{
+  width: 120px;
+  height: 48px;
+  border-radius: 10px;
+
+}
+
+.fot{
+   margin-left: 10px;
+}
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 1200px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 40%;
+    margin-top: 0;
+    margin-left: 50px;
+    font-size: 5px;
+  }
+  input[type=text], select, textarea{
+
+  font-size: 15px;
+}
+}
+
+@media screen and (max-width: 560px) {
+
+  input[type=text], select, textarea{
+
+  font-size: 12px;
+}
+}
+.watermark {
+font-family: Sail,cursive;
+display: inline;
+position: relative;
+opacity: 0.06;
+font-size: 6.5em;
+width: 100%;
+z-index: 100;
+top:58px;
+left:20.5%;
+
+}
+
+@media screen and (max-width: 1590px) {
+
+.watermark{
+  font-size: 6em;
+     top:95px;
+    left:10%;
+
+
+
+}
+}
+
+@media screen and (max-width: 1300px) {
+
+.watermark{
+  font-size: 6em;
+     top:95px;
+    left:4.5%;
+
+
+
+}
+}
+
+@media screen and (max-width: 770px) {
+
+.watermark{
+  font-size: 5.5em;
+     top:65px;
+    left:8.5%;
+
+
+
+}
+}

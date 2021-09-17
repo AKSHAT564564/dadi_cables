@@ -1,0 +1,282 @@
+
+.container {
+  -webkit-transition: none;
+  transition: none;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+.page-wrapper {
+  background: #fff;
+}
+
+.sec-pad {
+  padding: 130px 0;
+}
+
+.p0 {
+  padding: 0 !important;
+}
+
+.pt0 {
+  padding-top: 0;
+}
+
+.pb0 {
+  padding-bottom: 0 !important;
+}
+
+.mb0 {
+  margin-bottom: 0 !important;
+}
+
+.gray-bg {
+  background: #F6F6F6;
+}
+
+.dark-bg {
+  background: #262626;
+}
+
+.light-dark-bg {
+  background: #212121;
+}
+
+.blue-bg {
+  background: #201940;
+}
+
+.dark-blue-bg {
+  background: #1B1537;
+}
+
+.sec-title {
+  margin-bottom: 35px;
+}
+.sec-title h3 {
+  margin: 0;
+  color: #262626;
+  font-weight: 600;
+  font-size: 32px;
+  font-family: 'Poppins';
+}
+.sec-title h3:after {
+  display: inline-block;
+  vertical-align: middle;
+  content: '';
+  width: 38px;
+  height: 2px;
+  background: #888888;
+  margin-left: 15px;
+  margin-top: 12px;
+}
+.sec-title h3 + p {
+  margin-top: 21px;
+}
+.sec-title p {
+  color: #555555;
+  margin: 0;
+  font-size: 18px;
+  line-height: 28px;
+}
+.sec-title span {color: #2E3192;font-family: 'Playfair Display', serif;font-weight: bold;font-style: italic;background: -webkit-gradient(linear, left top, right top, from(#f80503), to(#ff7d09));background: linear-gradient(to right, #2e3192 0%, #2d7df5 100%); background-clip: border-box;-webkit-background-clip: text;-webkit-text-fill-color: transparent;}
+.sec-title.light h3 {
+  color: #fff;
+}
+.sec-title.light h3:after {
+  background: #fff;
+}
+
+/**************************
+* 20. portfolio styles
+***************************/
+.portfolio-style-two {
+  padding-bottom: 90px;
+  padding-top: 20px;
+}
+.portfolio-style-two .sec-title {
+  margin-bottom: 70px;
+}
+.portfolio-style-two .gallery-filter {
+  margin-bottom: 60px;
+}
+.portfolio-style-two .gallery-filter ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align:left;
+  border-top: 1px solid #e3dfdf;
+}
+.portfolio-style-two .gallery-filter ul li {
+  display: inline-block;
+  vertical-align: middle;
+}
+.owl-stage-outer .fa{font-size:13px;}
+.portfolio-style-two ul li.filter span img{width:20px;margin-right: 9px;margin-top: -9px;}
+.portfolio-style-two .gallery-filter ul li span {
+  display: block;
+  color: #262626;
+  font-size:14px;
+  font-weight: 600;
+  font-family: 'Poppins';
+  cursor: pointer;
+  line-height: 25px;
+  position: relative;
+  padding: 17px 17px;
+}
+.portfolio-style-two .gallery-filter ul li span:after {
+  content: '';
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: #2E3192;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+}
+.portfolio-style-two .gallery-filter ul li span i {
+  font-size: 25px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 13px;
+}
+.portfolio-style-two .gallery-filter ul li.active span {
+  color: #2E3192;
+}
+.portfolio-style-two .gallery-filter ul li.active span:after {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+.portfolio-style-two .single-portfolio-style-two {
+  margin-bottom: 35px;
+}
+.portfolio-style-two .single-portfolio-style-two .img-box {
+  position: relative;
+}
+.portfolio-style-two .single-portfolio-style-two .img-box > img {
+  width: 100%;
+}
+.portfolio-style-two .single-portfolio-style-two .img-box .overlay {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+  text-align: center;
+  background: #262626;
+  opacity: 0;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+}
+.portfolio-style-two .single-portfolio-style-two .img-box .overlay .box {
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+.portfolio-style-two .single-portfolio-style-two .img-box .overlay .box .content {
+  display: table-cell;
+  vertical-align: middle;
+}
+.portfolio-style-two .single-portfolio-style-two .img-box .overlay .box .content span {
+  color: #2E3192;
+  font-size: 14px;
+}
+.portfolio-style-two .single-portfolio-style-two .img-box .overlay .box .content h3 {
+  font-family: 'Poppins';
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  margin: 0;
+  margin-top: 5px;
+  margin-bottom: 7px;
+}
+.portfolio-style-two .single-portfolio-style-two .img-box .overlay .box .content a.img-popup {
+  color: #2E3192;
+  font-size: 15px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+.portfolio-style-two .single-portfolio-style-two:hover .img-box .overlay {
+  opacity: 1;
+}
+.portfolio-style-two.full-width {
+  overflow: hidden;
+}
+.portfolio-style-two.full-width .container-fluid {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.portfolio-style-two.full-width .single-portfolio-style-two {
+  margin-bottom: 0;
+}
+.portfolio-style-two.no-gutter .row {
+  margin: 0;
+}
+.portfolio-style-two.no-gutter [class*=col-] {
+  padding: 0;
+}
+
+.project-details {
+  padding: 125px 0;
+}
+.project-details .project-details-content {
+  padding-top: 50px;
+  padding-left: 45px;
+  padding-right: 70px;
+}
+.project-details .project-details-content h3, .project-details .project-details-content p {
+  margin: 0;
+}
+.project-details .project-details-content h3 {
+  color: #252525;
+  font-size: 30px;
+  font-weight: 600;
+  font-family: 'Poppins';
+}
+.project-details .project-details-content p {
+  font-size: 15px;
+  line-height: 27px;
+  color: #878787;
+}
+.project-details .project-details-content .starts i {
+  color: #FF5D17;
+  font-size: 18px;
+}
+.project-details .project-details-content .starts i + i {
+  margin-left: 6px;
+}
+.project-details .project-details-content ul.meta-info {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.project-details .project-details-content ul.meta-info li {
+  color: #878787;
+  font-size: 15px;
+}
+.project-details .project-details-content ul.meta-info li + li {
+  margin-top: 7px;
+}
+.project-details .project-details-content ul.meta-info li i {
+  color: #FF5D17;
+  font-size: 12px;
+  margin-right: 5px;
+}
+.project-details .project-details-content ul.meta-info li span {
+  color: #252525;
+  font-size: 15px;
+  font-family: 'Poppins';
+  font-weight: 500;
+  margin-right: 5px;
+}
+
+.multistrand-pg .inner-banner{background:#000 url(../cable/multistrand.jpg) center center no-repeat;}

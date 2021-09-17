@@ -1,0 +1,65 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 29/06/2018 19:41
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("../fonts/Flaticon.html");
+  src: url("../fonts/Flaticond41d.html?#iefix") format("embedded-opentype"),
+       url("../fonts/Flaticon.woff") format("woff"),
+       url("../fonts/Flaticon-2.html") format("truetype"),
+       url("../fonts/Flaticon-3.html#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("../fonts/Flaticon-3.html#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+  font-style: normal;
+}
+[class^="flaticon-"] {
+  line-height: 1;
+}
+
+.flaticon-happy:before { content: "\f100"; }
+.flaticon-laboratory:before { content: "\f101"; }
+.flaticon-experiment:before { content: "\f102"; }
+.flaticon-member:before { content: "\f103"; }
+.flaticon-award:before { content: "\f104"; }
+.flaticon-title:before { content: "\f105"; }
+.flaticon-plug-3:before { content: "\f106"; }
+.flaticon-plug-2:before { content: "\f107"; }
+.flaticon-light-bulb:before { content: "\f108"; }
+.flaticon-lightning-electric-energy:before { content: "\f109"; }
+.flaticon-ethernet:before { content: "\f10a"; }
+.flaticon-usb-cable:before { content: "\f10b"; }
+.flaticon-plug-1:before { content: "\f10c"; }
+.flaticon-plug:before { content: "\f10d"; }
+.flaticon-alarm:before { content: "\f10e"; }
+.flaticon-unlocked:before { content: "\f10f"; }
+.flaticon-collaboration:before { content: "\f110"; }
+.flaticon-work-team:before { content: "\f111"; }
+.flaticon-ray:before { content: "\f112"; }
+.flaticon-lightning:before { content: "\f113"; }
+.flaticon-idea:before { content: "\f114"; }
+.flaticon-home-2:before { content: "\f115"; }
+.flaticon-home-1:before { content: "\f116"; }
+.flaticon-home:before { content: "\f117"; }
+.flaticon-house:before { content: "\f118"; }
+.flaticon-pollution:before { content: "\f119"; }
+.flaticon-cashier:before { content: "\f11a"; }
+.flaticon-gear:before { content: "\f11b"; }
+.flaticon-money-bills-and-coins-stack:before { content: "\f11c"; }
+.flaticon-team:before { content: "\f11d"; }
+.flaticon-apartment-1:before { content: "\f11e"; }
+.flaticon-apartment:before { content: "\f11f"; }
+.flaticon-apartments:before { content: "\f120"; }

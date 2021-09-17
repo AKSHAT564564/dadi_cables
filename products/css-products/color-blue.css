@@ -1,0 +1,81 @@
+a {
+color:#008fd5
+}
+
+
+.page-title {
+border-top-color:#4db1e2;
+background-color:#008fd5
+}
+
+.photo-tour h3 {
+color:#008fd5
+}
+
+.photo-tour p {
+border-color:#008fd5
+}
+
+.photo-tour .links a {
+background:#008fd5
+}
+
+.photo-tour .links a:hover {
+background:#4db1e2
+}
+
+.photo-tour .item:hover h3,.photo-tour .item:hover p {
+background:#008fd5
+}
+
+
+.widget-title {
+border-left-color:#008fd5
+}
+
+.widget-sevices i {
+color:#008fd5
+}
+
+.widget-sevices a.selected {
+color:#008fd5
+}
+
+.widget-sevices a:hover {
+color:#008fd5
+}
+
+
+.page-footer {
+color:#bbb
+}
+
+.page-footer a:hover {
+color:#4db1e2
+}
+
+
+
+.location li i {
+background:#008fd5
+}
+
+.location nav a {
+border:3px solid #bbb;
+color:#bbb
+}
+
+.location nav a:hover {
+background:#bbb
+}
+
+.location .widget-icon {
+background-image:url(../img/blue/location.png)
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),only screen and (min--moz-device-pixel-ratio: 1.5),only screen and (min-device-pixel-ratio: 1.5) {
+.location .widget-icon {
+background-image:url(../img/blue/location%402x.png);
+background-size:67px 64px
+}
+}
