@@ -14,6 +14,8 @@
         <!-- Bootstrap v4.4.1 css -->
         <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
         <!-- font-awesome css -->
+
+        
         <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
         <!-- animate css -->
         <link rel="stylesheet" type="text/css" href="assets/css/animate.css">
